@@ -6,6 +6,4 @@ router = APIRouter(prefix="/coverage", tags=["Coverage"])
 
 @router.post("/predict")
 def predict_coverage(play: PlayData):
-    """Given a play JSON, predict defensive coverage."""
-    result = predict_play_coverage(play)
-    return result
+    return predict_play_coverage(play)
