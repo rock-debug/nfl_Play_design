@@ -1,7 +1,7 @@
 import numpy as np
 import joblib
 from sklearn.ensemble import RandomForestClassifier
-from engine.features_player import extract_player_features
+from src.engine.features_player import extract_player_features
 
 MODEL_PATH = "models/player_position_classifier.pkl"
 
